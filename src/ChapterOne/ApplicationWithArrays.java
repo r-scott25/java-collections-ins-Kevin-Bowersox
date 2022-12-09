@@ -1,3 +1,5 @@
+package ChapterOne;
+
 import java.util.Arrays;
 
 public class ApplicationWithArrays {
@@ -19,6 +21,7 @@ public class ApplicationWithArrays {
         moreRooms[moreRooms.length - 1] = oxford;
 
         getPotentialRevenue(rooms);
+
     }
 
     private static double getPotentialRevenue(Room[] rooms) {
@@ -26,5 +29,7 @@ public class ApplicationWithArrays {
                 .mapToDouble(r -> r.getRate())
                 .sum();
     }
+
+
 
 }

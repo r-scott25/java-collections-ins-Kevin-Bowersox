@@ -1,3 +1,4 @@
+package ChapterOne;
 
 public class Room {
 
