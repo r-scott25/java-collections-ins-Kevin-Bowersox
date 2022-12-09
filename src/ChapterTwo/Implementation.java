@@ -1,6 +1,7 @@
 package ChapterTwo;
 
-public class Implementation implements Contract  {
+public class Implementation implements Contract{
+
 
     @Override
     public void term1() {
@@ -14,8 +15,7 @@ public class Implementation implements Contract  {
 
     @Override
     public void extendedTerm() {
-        System.out.println("Implementation:extended");
+        System.out.println("Implementation:extendedTerm");
+
     }
-
-
 }
